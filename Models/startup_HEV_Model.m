@@ -13,18 +13,18 @@ addpath([pwd '/Images']);
 HEV_Model_PARAM
 
 % FOR VARIABLE INERTIA (PCT TESTS)
-if(exist('Libraries\Vehicle')==7)
-    cd Libraries\Vehicle
-    if((exist('+TunableMech')==7) && ~exist('TunableMech_lib'))
-        disp('Building Custom Simscape Library...');
-        ssc_build TunableMech
-        disp('Finished Building Library.');
-    end
-    cd(HEV_Model_HomeDir)
-end
-
-open('HEV_Model_Demo_Script.html')
-HEV_SeriesParallel
+% if(exist('Libraries\Vehicle')==7)
+%     cd Libraries\Vehicle
+%     if((exist('+TunableMech')==7) && ~exist('TunableMech_lib'))
+%         disp('Building Custom Simscape Library...');
+%         ssc_build TunableMech
+%         disp('Finished Building Library.');
+%     end
+%     cd(HEV_Model_HomeDir)
+% end
+% 
+% open('HEV_Model_Demo_Script.html')
+% HEV_SeriesParallel
 
 
 
