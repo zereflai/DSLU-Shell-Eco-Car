@@ -6,9 +6,9 @@ addpath([pwd '/Libraries/Electrical']);
 addpath([pwd '/Libraries/Battery']);
 addpath([pwd '/Libraries/Vehicle']);
 addpath([pwd '/Images']);
-addpath([pwd '/Scripts_Data']);
-addpath([pwd '/Reports']);
-addpath([pwd '/Power_Quality']);
+%addpath([pwd '/Scripts_Data']);
+%addpath([pwd '/Reports']);
+%addpath([pwd '/Power_Quality']);
 
 HEV_Model_PARAM
 
